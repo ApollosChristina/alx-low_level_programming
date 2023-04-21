@@ -1,10 +1,12 @@
-#Include < stdio.h
+#include <stdio.h>
+
 /**
- *  main A program that prints a line with put function
- *  RETURN: 0 (correct)
+ * main - Prints a string with puts
+ *
+ * Return: 0 if program executed successfully
  */
 int main(void)
 {
-put$("/Programming is like building a multilingual puzzle");
-return (0);
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
